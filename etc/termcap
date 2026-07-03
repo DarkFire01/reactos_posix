@@ -1,0 +1,15 @@
+li|ansi|psx_ansi|:\
+	:co#80:li#25:\
+	:am:pt:ms:bw:\
+	:cl=\E[2J:cm=\E[%i%d;%dH:ce=\E[K:cd=\E[J:\
+	:sf=\E[S:sr=\E[T:\
+	:ho=\E[H:sc=\E[s:rc=\E[u:up=\E[A:d=^J:nd=\E[C:le=^H:\
+	:ku=\E[A:kd=\E[V:kr=\E[C:kl=\E[D:kb=^H:\
+	:so=\E[7m:se=\E[m:mr=\E[7m:me=\E[0m:\
+
+lw|vt52|DEC vt52:\
+	:cr=^M:do=^J:nl=^J:bl=^G:\
+	:le=^H:bs:cd=\EJ:ce=\EK:cl=\EH\EJ:\
+	:cm=\EY%+ %+ :co#80:li#24:\
+	:nd=\EC:ta=^I:pt:sr=\EI:up=\EA:\
+	:ku=\EA:kd=\EB:kr=\EC:kl=\ED:kb=^H:

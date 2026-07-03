@@ -1,0 +1,4 @@
+# X locale alias table (psx runtime copy). Colon-separated fields.
+POSIX:			C
+en_US:			en_US.ISO8859-1
+en_US.iso88591:		en_US.ISO8859-1

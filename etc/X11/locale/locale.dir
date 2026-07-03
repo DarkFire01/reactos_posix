@@ -1,0 +1,5 @@
+# X locale database index (psx runtime copy). NOTE: lcFile parse_line splits
+# fields at COLONS, not whitespace -- the trailing colon is the separator.
+C/XLC_LOCALE:			C
+C/XLC_LOCALE:			POSIX
+C/XLC_LOCALE:			en_US.ISO8859-1

@@ -1,0 +1,20 @@
+# /etc/profile - loaded by the POSIX shell (ksh) at startup.
+# On ReactOS the POSIX userland is injected from modules/bin -> /bin
+# and this file from modules/etc -> /etc.
+
+TERM=ansi
+TERMCAP=//C/etc/termcap
+export TERM TERMCAP
+
+# POSIX userland lives in /bin (//C/bin). Put it on PATH so bare
+# "ls", "grep", ... resolve with no ./ and no .EXE.
+PATH=//C/bin:$PATH
+export PATH
+
+PS1='$ '
+export PS1
+
+# /bin ships BOTH lowercase (ls) and uppercase (LS.EXE) names, so the
+# plain lowercase commands work directly. Do NOT add aliases like
+# ls=LS.EXE: an alias rewrites the name before the PATH search and
+# shadows the real lowercase link (the "Not a POSIX program" trap).

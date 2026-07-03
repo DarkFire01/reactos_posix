@@ -1,0 +1,35 @@
+# XLC_LOCALE for the C locale -- hand-expanded from x11r6src/nls/XLC_LOCALE/C
+# (X_LOCALE build, 16-bit wchar_t branch; XCOMM/cpp stripped for the runtime
+# lcDB parser).
+
+XLC_FONTSET
+fs0	{
+	charset	{
+		name	ISO8859-1:GL
+	}
+	font	{
+		primary		ISO8859-1:GL
+		vertical_rotate	all
+	}
+}
+END XLC_FONTSET
+
+XLC_XLOCALE
+encoding_name		STRING
+mb_cur_max		1
+state_depend_encoding	False
+wc_encoding_mask	\x00008080
+wc_shift_bits		8
+cs0	{
+	side		GL:Default
+	length		1
+	wc_encoding	\x00000000
+	ct_encoding	ISO8859-1:GL
+}
+cs1	{
+	side		GR:Default
+	length		1
+	wc_encoding	\x00008080
+	ct_encoding	ISO8859-1:GR
+}
+END XLC_XLOCALE
